@@ -1,0 +1,61 @@
+body
+{
+    
+    margin: 100;
+    padding 25px;
+    font-family: sans-serif;
+    text-align: center;
+
+    
+}
+
+.elite{
+    width: 300px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    background: mediumspringgreen;
+
+    padding: 29px;
+    margin-top: 50%;
+    margin 10% auto 0;
+    text-align: center;
+    
+    
+}
+.elite h1
+{
+    color: black;
+    margin-bottom: 30;
+    font-size: 40px;
+
+}
+
+.input-box
+{
+     border-radius: 20px;
+    padding: 10px;
+    margin: 12px 0;
+    width: 80%;
+    border: 2px solid #000000;
+    outline: none;
+     
+}
+
+.signup
+{
+     border-radius: 15px;
+         padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.main_bg{
+   
+    background-color: black;
+   background-size: cover;
+    backgrounD background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200;
+}

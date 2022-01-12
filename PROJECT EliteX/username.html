@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WElcome username</title>
+<link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+ <body class="main_bg">
+    <div class="form">
+        <div class="elite">
+            <h1 style="font-family: monospace">Login Here</h1>
+<form name="loginForm" method="post" action="Target.html">
+UserName &nbsp <input type="twxt" class="input-box" name="username"id="username"/><br/></br>
+Password &nbsp &nbsp <input type="password" class="input-box" name="password" id="password"/>&nbsp
+    
+    <a href="EliteX.html">
+ <input type="button" class="signup" onclick="login(loginForm)" value="Login"/>
+    </a>
+
+</form>
+<script>
+function login(loginForm)
+{
+
+if(loginForm.username.value && loginForm.password.value)
+{
+var username=document.getElementById("username").value;
+document.write('<html><body><h1><center>')
+document.write("Welcome" + " ");
+document.write(username);
+document.write('</center></h1></body></html>');
+}
+else
+alert("Please Enter your Username & Password");
+}
+
+</script>
+</div>
+</body>
+</html>
